@@ -78,17 +78,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/categories" class="waves-effect waves-light">
-      
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
-      
-      <span>分类</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/archives" class="waves-effect waves-light">
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
@@ -181,17 +170,6 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			分类
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/archives" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-archive"></i>
@@ -237,7 +215,7 @@
         
         <li><div class="divider"></div></li>
         <li>
-            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+            <a href="https://github.com/leaveshadowsky" class="waves-effect waves-light" target="_blank">
                 <i class="fab fa-github-square fa-fw"></i>Fork Me
             </a>
         </li>
@@ -294,7 +272,7 @@
     }
 </style>
 
-<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+<a href="https://github.com/leaveshadowsky" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
    data-tooltip="Fork Me" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -680,7 +658,7 @@
     <div id="rewardModal" class="modal">
         <div class="modal-content">
             <a class="close modal-close"><i class="fas fa-times"></i></a>
-            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <h4 class="reward-title">来杯咖啡吧！</h4>
             <div class="reward-content">
                 <div class="reward-tabs">
                     <ul class="tabs row">
@@ -1072,6 +1050,43 @@
 </div>
 
 
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('10')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 一叶旧书<br />'
+            + '文章作者: LeaveYe<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
 
 <!-- 代码块功能依赖 -->
 <script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
@@ -1252,9 +1267,9 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2021</span>
+                <span id="year">2020-2021</span>
             
-            <span id="year">2019</span>
+            <span id="year">2020</span>
             <a href="/about" target="_blank">LeaveYe</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
@@ -1458,8 +1473,6 @@ $(function () {
     })();
 </script>
 
-    
-    <script src="/libs/others/clicklove.js" async="async"></script>
     
     
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
