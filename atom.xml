@@ -6,7 +6,7 @@
   <link href="http://leaveye.icu/atom.xml" rel="self"/>
   
   <link href="http://leaveye.icu/"/>
-  <updated>2021-04-13T04:58:33.117Z</updated>
+  <updated>2021-04-13T06:41:15.689Z</updated>
   <id>http://leaveye.icu/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://leaveye.icu/2021/04/12/windowspdf-ruan-jian-tui-jian/"/>
     <id>http://leaveye.icu/2021/04/12/windowspdf-ruan-jian-tui-jian/</id>
     <published>2021-04-12T11:51:40.000Z</published>
-    <updated>2021-04-13T04:58:33.117Z</updated>
+    <updated>2021-04-13T06:41:15.689Z</updated>
     
     
       
@@ -37,6 +37,10 @@
     
     <category term="Windows软件" scheme="http://leaveye.icu/tags/Windows%E8%BD%AF%E4%BB%B6/"/>
     
+    <category term="办公软件" scheme="http://leaveye.icu/tags/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="破解软件" scheme="http://leaveye.icu/tags/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6/"/>
+    
   </entry>
   
   <entry>
@@ -44,7 +48,7 @@
     <link href="http://leaveye.icu/2021/04/09/hexo-matery-de-shi-yong/"/>
     <id>http://leaveye.icu/2021/04/09/hexo-matery-de-shi-yong/</id>
     <published>2021-04-09T09:01:16.000Z</published>
-    <updated>2021-04-09T09:11:57.449Z</updated>
+    <updated>2021-04-13T06:40:31.175Z</updated>
     
     
       
@@ -62,6 +66,12 @@
     
     
     <category term="Hexo" scheme="http://leaveye.icu/tags/Hexo/"/>
+    
+    <category term="前端" scheme="http://leaveye.icu/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="HTML" scheme="http://leaveye.icu/tags/HTML/"/>
+    
+    <category term="JavaScript" scheme="http://leaveye.icu/tags/JavaScript/"/>
     
   </entry>
   

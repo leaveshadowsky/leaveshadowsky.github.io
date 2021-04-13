@@ -9,23 +9,23 @@
   </url>
   
   <url>
-    <loc>http://leaveye.icu/%E4%B8%80%E6%AC%BE%E4%BC%98%E7%A7%80%E7%9A%84PDF%E8%BD%AF%E4%BB%B6-%E6%94%AF%E6%8C%81%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6%EF%BC%8C%E5%90%84%E7%A7%8D%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/index.html</loc>
-    
-    <lastmod>2021-04-12</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://leaveye.icu/2021/04/09/hexo-matery-de-shi-yong/</loc>
     
-    <lastmod>2021-04-09</lastmod>
+    <lastmod>2021-04-13</lastmod>
     
   </url>
   
   <url>
     <loc>http://leaveye.icu/Hexo-matery%E7%9A%84%E4%BD%BF%E7%94%A8/index.html</loc>
     
-    <lastmod>2021-04-09</lastmod>
+    <lastmod>2021-04-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://leaveye.icu/%E4%B8%80%E6%AC%BE%E4%BC%98%E7%A7%80%E7%9A%84PDF%E8%BD%AF%E4%BB%B6-%E6%94%AF%E6%8C%81%E8%A7%A3%E5%AF%86%E6%96%87%E4%BB%B6%EF%BC%8C%E5%90%84%E7%A7%8D%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/index.html</loc>
+    
+    <lastmod>2021-04-12</lastmod>
     
   </url>
   
@@ -82,6 +82,41 @@
   
   <url>
     <loc>http://leaveye.icu/tags/Hexo/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://leaveye.icu/tags/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://leaveye.icu/tags/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://leaveye.icu/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://leaveye.icu/tags/HTML/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://leaveye.icu/tags/JavaScript/</loc>
     <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
